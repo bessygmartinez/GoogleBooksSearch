@@ -29,10 +29,10 @@ const Book = ({
                     </Row>
                     <Row>            
                 <a href={link} target="_blank" rel="noopener noreferrer">
-                  <button className="view btn mt-4">
+                  <button className="view btn">
                     View Book</button>                 
                 </a>
-                <div className="save mt-4 ml-3 mr-1">
+                <div className="save ml-3 mr-1">
                   <Button />
                   </div> 
                     </Row>
