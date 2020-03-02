@@ -1,10 +1,11 @@
 import React from "react";
 
+
 function Nav() {
     return (
-        <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style={{ "zIndex": "10000"}}>
             <a className="navbar-brand" href="/">
-                <h2 className="text-white">Google Book Search</h2>
+                <h2 className="text-white">Google Books Search</h2>
             </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
